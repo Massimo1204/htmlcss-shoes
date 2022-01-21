@@ -19,6 +19,7 @@ header{
     z-index: 2;
 }
 
+/* FORMA BOTTONI */
 .scorciatoia{
     background-color: white;
     border-radius: 50%;
@@ -29,6 +30,7 @@ header{
     font-size: 1.2em;
 }
 
+/* EFFETTO SHADOW BOTTONI */
 .terzo:hover {
     box-shadow: 3px 3px black ;
     border: 1px solid;
@@ -44,29 +46,20 @@ header{
     border: 1px solid;
 }
 
-.float-right{
-    float: right;
-}
-
-.relative{
-    position: relative;
-}
-
-.absolute{
-    position: absolute;
-}
-
+/* DIMENSIONE SEZIONI */
 .shoe{
     height: 100vh;
     width: 100vw;
 }
 
+/* POSIZIONE IMMAGINI */
 .shoe img{
     top: 50%;
     left: 50%;
     transform : translate(-50% , -60%);
 }
 
+/* POSIZIONE E FORMA TESTO */
 .shoe h1{
     text-transform: uppercase;
     font-size: 3em;
@@ -79,6 +72,7 @@ header{
     text-align: center;
 }
 
+/* COLORI SEZIONI E TESTO */
 .one{
     background-color: red;
 }
@@ -91,14 +85,24 @@ header{
     background-color: yellow;
 }
 
-.one h1{
-    color: yellow;
-}
-
+.one h1,
 .two h1{
     color: yellow;
 }
 
 .three h1{
     color: green;
+}
+
+/* CLASSI COMUNI */
+.float-right{
+    float: right;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
 }
