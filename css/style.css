@@ -22,12 +22,27 @@ header{
 .scorciatoia{
     background-color: white;
     border-radius: 50%;
-    padding: 20px 24px;
+    padding: 17px 22px;
     margin: 50px 20px;
     text-decoration: none;
     color: black;
+    font-size: 1.2em;
 }
 
+.terzo:hover {
+    box-shadow: 3px 3px black ;
+    border: 1px solid;
+}
+
+.secondo:hover {
+    box-shadow: 3px 3px black ;
+    border: 1px solid;
+}
+
+.primo:hover {
+    box-shadow: 3px 3px black ;
+    border: 1px solid;
+}
 
 .float-right{
     float: right;
